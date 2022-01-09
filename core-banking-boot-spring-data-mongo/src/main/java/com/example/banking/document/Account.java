@@ -8,6 +8,7 @@ import com.example.banking.service.business.exception.InsufficientBalanceExcepti
 
 // Alt + Shift + S -> Generates code!
 public class Account {
+	
 	@Indexed(unique = true)
 	private String iban;
 	private double balance;

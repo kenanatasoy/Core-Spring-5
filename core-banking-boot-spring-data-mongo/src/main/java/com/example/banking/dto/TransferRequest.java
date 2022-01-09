@@ -1,6 +1,7 @@
 package com.example.banking.dto;
 
 public class TransferRequest {
+	
 	private String fromIdentity;
 	private String fromIban;
 	private String toIdentity;
